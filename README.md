@@ -11,7 +11,7 @@ Este projeto utiliza um Arduino para controlar dois LEDs (vermelho e verde) com 
 potenciômetro
 - LED Vermelho (Pino 10):
     - Liga com comando ```'d'``` via Serial
-    - Desliga com o comando ``` 'c'```
+    - Desliga com o comando ```'c'```
 - LED Verde (Pino 9):
     - Liga com comando ```'e'``` via Serial
     - Desliga com comando ```'f'```
