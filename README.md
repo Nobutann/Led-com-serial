@@ -10,11 +10,11 @@ Este projeto utiliza um Arduino para controlar dois LEDs (vermelho e verde) com 
 - Botão (Pino 8): Quando pressionado (nível LOW), exibe no Serial Monitor o valor mapeado do
 potenciômetro
 - LED Vermelho (Pino 10):
-    - Liga com comando ```cpp'd'``` via Serial
-    - Desliga com o comando ```cpp 'c'```
+    - Liga com comando ```'d'``` via Serial
+    - Desliga com o comando ``` 'c'```
 - LED Verde (Pino 9):
-    - Liga com comando ```cpp'e'``` via Serial
-    - Desliga com comando ```cpp'f'```
+    - Liga com comando ```'e'``` via Serial
+    - Desliga com comando ```'f'```
 
 ---
 
@@ -32,10 +32,10 @@ potenciômetro
 ## Comandos vis Serial Monitor
 
 Envie os seguintes caracteres pelo **Serial Monitor (9600 baud)** para controlar os LEDs:
-- ```cppe``` - Liga LED Verde
-- ```cppf``` - Desliga LED Verde
-- ```cppd``` - Liga LED Vermelho
-- ```cppc``` - Desliga LED Vermelho
+- ```e``` - Liga LED Verde
+- ```f``` - Desliga LED Verde
+- ```d``` - Liga LED Vermelho
+- ```c``` - Desliga LED Vermelho
 
 ## Observações
 
